@@ -1,15 +1,15 @@
-import Logo from '../logo.svg';
+import Logo from '../assets/foto3.png';
+import Foto from '../assets/foto2.png';
 
 
 function Home() {
   return (
-    <div>
-        <h1>Welcome to the Home Page</h1>
-        <p>This is the home page of our React application.</p>
-        <h4>Hello world</h4>
-        <h5>Hello Kenza</h5>
-        <img src={Logo} alt="" />
-        
+    <div className='div1' >
+        <h1 className='titulli'>Welcome to the Home Components</h1>
+        <img className='imazhi' src={Logo} alt="React Logo" />
+                <img className='imazhiDyt' src={Foto} alt="React Logo" />
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente non perspiciatis voluptatibus maiores est hic!</p>
+                  <h3>Subheading</h3>
     </div>
   );
 }

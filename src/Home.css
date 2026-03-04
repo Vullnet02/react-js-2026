@@ -1,0 +1,47 @@
+
+
+
+.titulli {
+  color: red;
+  font-size: 30px;
+}
+
+
+.imazhi {
+  width: 600px;
+  height: 300px;
+  margin: 0 20px;
+  border: 5px solid red;
+  border-radius: 20px;
+}
+
+.imazhiDyt {
+  width: 600px;
+  height: 300px;
+  margin: 0 20px;
+    border: 5px solid red;
+      border-radius: 20px;
+
+
+}
+
+
+.div1 {
+  background-color: black;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.div1 h1{
+  text-align: center;
+}
+
+.div1 p {
+text-align: center;
+}
+
+.div1 img {
+  margin: 20px auto;
+  display: flex,;
+}
