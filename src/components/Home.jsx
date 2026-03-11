@@ -4,6 +4,7 @@ import Foto from '../assets/foto2.png';
 
 function Home() {
   return (
+    
     <div className='div1' >
         <h1 className='titulli'>Welcome to the Home Components</h1>
         <img className='imazhi' src={Logo} alt="React Logo" />
