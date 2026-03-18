@@ -27,7 +27,9 @@
 
 
 .div1 {
-  background-color: black;
+  background-image: url(https://images.unsplash.com/photo-1501785888041-af3ef285b470);
+  background-size: cover;
+  background-position: center;
   padding: 20px;
   border-radius: 10px;
   color: white;
@@ -44,4 +46,11 @@ text-align: center;
 .div1 img {
   margin: 20px auto;
   display: flex,;
+}
+
+
+.text-home{
+
+  text-align: center;
+  color:  red;
 }
