@@ -14,6 +14,9 @@ function Navbar() {
         <li><Link to="/Contact">Contact</Link></li>
         <li><Link to="/Product">Product</Link></li>
       </ul>
+
+      <Link to="/LoginPage"><button className="login-button">Login</button></Link>   
+        
     </nav>
   );
 }

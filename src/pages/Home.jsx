@@ -13,6 +13,8 @@ function HomePage() {
             
             <Navbar />
             <Home />
+            <Product />
+
             <Text />
             
         </div>

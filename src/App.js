@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import  './Home.css';
 import './About.css';
 import './Navbar.css';
@@ -6,9 +5,7 @@ import './Navbar.css';
 import { Routes, Route } from 'react-router-dom';
 import HomePage from './pages/Home';
 import About from './pages/About';
-// import Contact from './components/Contact';
-// import Navbar from "./components/Navbar";
-// import Product from './components/Product';
+import Login from './pages/LoginPage';
 
 
 function App() {
@@ -17,6 +14,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<About />} />
+        <Route path="/loginpage" element={<Login />} />
 
       </Routes>
     </>

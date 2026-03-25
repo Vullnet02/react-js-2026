@@ -33,6 +33,7 @@
   padding: 20px;
   border-radius: 10px;
   color: white;
+  height: 600px;
 }
 
 .div1 h1{
@@ -45,7 +46,8 @@ text-align: center;
 
 .div1 img {
   margin: 20px auto;
-  display: flex,;
+  display: flex;
+  flex-direction: space-between;
 }
 
 
@@ -54,3 +56,30 @@ text-align: center;
   text-align: center;
   color:  red;
 }
+
+h1{
+  color: rgb(255, 255, 255);
+  margin: 170px auto;
+  font-size: 70px;
+  font-family: 'Arial', sans-serif;
+  
+}
+.produkti{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product{
+  border: 1px solid red;
+  width: 300px;
+  margin: 0 auto;
+
+}
+
+.img{
+  width: 100%;
+  height: auto;
+}
+
