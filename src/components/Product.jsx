@@ -27,7 +27,7 @@ function Product() {
         <img className='img'  src={OIP} alt="React Logo" />
         <h2>Product Name</h2>
         <p>Product Description</p>  
-        <Link to="/product-details">View Details</Link>
+        <Link to="./ProductDetails">View Details</Link>
       </div>
     </div>
     </>
