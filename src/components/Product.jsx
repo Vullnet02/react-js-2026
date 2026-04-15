@@ -1,36 +1,17 @@
 
 import { Link } from "react-router-dom";
-import Home  from "./Slider";
-import OIP from "../assets/OIP.webp";
 import "./Product.css";
 
 
 
-function Product() {
+function Product({ name, description, img }) {
   return (
-
-    <>
-    <div className="produkti">
-      <div className="product">
-        <img className='img'  src={OIP} alt="React Logo" />
-        <h2>Product Name</h2>
-        <p>Product Description</p>  
-        <Link to="/product-details">View Details</Link>
-      </div>
-      <div className="product">
-        <img className='img'  src={OIP} alt="React Logo" />
-        <h2>Product Name</h2>
-        <p>Product Description</p>  
-        <Link to="/product-details">View Details</Link>
-      </div>
-      <div className="product">
-        <img className='img'  src={OIP} alt="React Logo" />
-        <h2>Product Name</h2>
-        <p>Product Description</p>  
-        <Link to="./ProductDetails">View Details</Link>
-      </div>
+    <div className="product">
+      <img className='img' src={img} alt={name} />
+      <h2>{name}</h2>
+      <p>{description}</p>
+      <Link to="/productdetails">View Details</Link>
     </div>
-    </>
   );
 }
 
