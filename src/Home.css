@@ -27,13 +27,15 @@
 
 
 .div1 {
-  background-image: url(https://images.unsplash.com/photo-1501785888041-af3ef285b470);
+  background-image: url(https://50cdn.gjirafamall.tech/images/4c359a29-25e7-4cd2-992b-722bb1da6d5c/4c359a29-25e7-4cd2-992b-722bb1da6d5c.jpeg?w=1046&h=400&fit=crop&auto=format);
   background-size: cover;
   background-position: center;
   padding: 20px;
   border-radius: 10px;
   color: white;
-  height: 600px;
+  height: 250px;
+  width: 1200px;
+  float: right;
 }
 
 .div1 h1{

@@ -6,8 +6,7 @@ function Home() {
   return (
     <>
     <div className='div1' >
-      <h1>Hello World</h1>
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut, fugiat!</p>
+      
     </div>
 
     
