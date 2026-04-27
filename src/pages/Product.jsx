@@ -11,6 +11,7 @@ function ProductPage() {
         {products.map((p) => (
           <ProductComponent
             key={p.id}
+            id={p.id}
             name={p.name}
             description={p.description}
             img={p.img}
