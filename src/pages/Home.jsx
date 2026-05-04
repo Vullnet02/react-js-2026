@@ -15,7 +15,6 @@ function HomePage() {
             <Navbar />
             <Home />
             <Card/>
-            <CardDetajet />
     
 
             
