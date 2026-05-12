@@ -7,6 +7,8 @@ import Product from "../components/Product";
 import Text from "../components/Text";
 import Card from "../components/Card";
 import CardDetajet from "../components/CardDetajet";
+import OfertaSpeciale from "../components/OfertaSpeciale";
+import ProduktetGrid from "../components/ProduktetGrid";
 
 function HomePage() {
     return (
@@ -14,8 +16,8 @@ function HomePage() {
             
             <Navbar />
             <Home />
-            <Card/>
-    
+            <ProduktetGrid />
+            <OfertaSpeciale />
 
             
         </div>
