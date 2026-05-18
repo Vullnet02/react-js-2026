@@ -1,5 +1,5 @@
 import React from "react";
-import Login from "../components/Login";
+import LoginForm from "../components/LoginForm";
 import Navbar from "../components/Navbar";
 
 function LoginPage() {
@@ -10,7 +10,7 @@ function LoginPage() {
         <div>
             <h1 className='titulli'>Welcome to the Login Page</h1>
         </div>
-        <Login/>
+        <LoginForm/>
 
         </>
 

@@ -47,8 +47,27 @@
   color:white;
 }
 
+.login-button{
+  background:#61dafb;
+  border:none;
+  padding:10px 20px;
+  color:black;
+  cursor:pointer;
+  border-radius:5px;
+}
+
 .nav-links{
   list-style:none;
   display:flex;
   gap:20px;
+}
+
+.nav-link{
+  color:white;
+  text-decoration:none;
+  font-size:18px;
+}
+
+.nav-link:hover{
+  text-decoration:underline;
 }
