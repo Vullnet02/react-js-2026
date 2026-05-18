@@ -9,6 +9,7 @@ import Card from "../components/Card";
 import CardDetajet from "../components/CardDetajet";
 import OfertaSpeciale from "../components/OfertaSpeciale";
 import ProduktetGrid from "../components/ProduktetGrid";
+import Footer from "../components/Footer";
 
 function HomePage() {
     return (
@@ -18,6 +19,7 @@ function HomePage() {
             <Home />
             <ProduktetGrid />
             <OfertaSpeciale />
+            <Footer/>
 
             
         </div>

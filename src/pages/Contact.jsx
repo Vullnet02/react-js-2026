@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "../components/Navbar";
 import "../Contact.css";
+import Footer from "../components/Footer";
 
 function Contact() {
     const [submitted, setSubmitted] = useState(false);
@@ -200,6 +201,8 @@ function Contact() {
                     referrerPolicy="no-referrer-when-downgrade"
                 />
             </div>
+                    <Footer />
+
         </div>
     );
 }

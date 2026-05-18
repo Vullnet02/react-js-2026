@@ -1,7 +1,7 @@
 import ProductComponent from "../components/Product";
 import Navbar from "../components/Navbar";
 import products from "../product";
-
+import Footer from "../components/Footer";
 
 function ProductPage() {
   return (
@@ -19,6 +19,7 @@ function ProductPage() {
           />
         ))}
       </div>
+      <Footer />
     </>
   );
 }
